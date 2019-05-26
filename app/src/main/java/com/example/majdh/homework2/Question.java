@@ -15,10 +15,10 @@ public class Question implements Serializable
         answers = new ArrayList<String>();
     }
 
-    public Question(int question_number, String qc)
+    public Question(int question_number, String q_c)
     {
         questionNum = question_number;
-        questionContent = qc;
+        questionContent = q_c;
         answers = new ArrayList<String>();
     }
 
