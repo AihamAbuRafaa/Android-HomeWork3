@@ -15,9 +15,9 @@ public class Question implements Serializable
         answers = new ArrayList<String>();
     }
 
-    public Question(int qn, String qc)
+    public Question(int question_number, String qc)
     {
-        questionNum = qn;
+        questionNum = question_number;
         questionContent = qc;
         answers = new ArrayList<String>();
     }
