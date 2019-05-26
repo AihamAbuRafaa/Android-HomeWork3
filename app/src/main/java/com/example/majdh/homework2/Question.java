@@ -22,8 +22,8 @@ public class Question implements Serializable
         answers = new ArrayList<String>();
     }
 
-    public void setQuestionNum(int questionNum) {
-        this.questionNum = questionNum;
+    public void setQuestionNum(int question_Num) {
+        this.questionNum = question_Num;
     }
 
     public void setQuestionContent(String questionContent) {
